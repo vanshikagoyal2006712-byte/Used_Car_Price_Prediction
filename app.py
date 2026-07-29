@@ -2,7 +2,7 @@
 import streamlit as st
 import pickle 
 import pandas as pd
-df = pd.read_csv("car data.csv")
+df = pd.read_csv("car_data_updated.csv")
 
 model=pickle.load(open("car_price_model.pkl","rb"))
 st.title("🚗 Used Car Price Prediction")
